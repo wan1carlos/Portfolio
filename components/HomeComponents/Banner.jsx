@@ -20,7 +20,7 @@ const Banner = () => {
                                                     strings:
                                                         ['Software Engineer',
                                                             'Web App Developer',
-                                                                'Poging nilalang'],
+                                                                'Android App Developer'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -41,22 +41,22 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>0</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>3</span>
                         <span className='text-xs text-Snow'>Completed Projects</span>
                     </div>
 
-                    <div className="flex items-center gap-x-1">
+                   {/* <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>0</span>
                         <span className='text-xs text-Snow'>Freelance Clients</span>
-                    </div>
+                    </div>*/}
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>0</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>1</span>
                         <span className='text-xs text-Snow'>Honors & Awards</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>0</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>1</span>
                         <span className='text-xs text-Snow'>Opensource Projects</span>
                     </div>
 
