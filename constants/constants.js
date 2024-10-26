@@ -12,43 +12,23 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'Python',
+    title: 'Backend: Python, C++, PHP, Java',
     level: '80%',
   },
   {
-    title: 'Java',
-    level: '70%',
-  },
-  {
-    title: 'c++',
-    level: '70%',
-  },
-  {
-    title: 'Html, css',
-    level: '65%',
-  },
-  {
-    title: 'Javascript',
-    level: '60%',
-  },
-  {
-    title: 'React',
-    level: '60%',
-  },
-  {
-    title: 'Android Development',
-    level: '70%',
-  },
-  {
-    title: 'PHP',
+    title: 'Frontend: HTML, CSS, React, JavaScript',
     level: '75%',
   },
   {
-    title: 'MySQL',
-    level: '60%',
+    title: 'Mobile: Android Development',
+    level: '70%',
   },
   {
-    title: 'Solidity',
+    title: 'Database: MySQL, phpMyAdmin, Oracle',
+    level: '70%',
+  },
+  {
+    title: 'Blockchain: Solidity',
     level: '50%',
   },
 ];
