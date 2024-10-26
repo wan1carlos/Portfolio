@@ -8,8 +8,8 @@ import { Skeleton } from "antd";
 import ImageAndParagraphSkeleton from "../components/Common/ImageAndParagraphSkeleton";
 
 const Portfolio = () => {
-    null
-    {/*const { isLoading, error, data } = useQuery('portfolio', () =>
+
+    const { isLoading, error, data } = useQuery('portfolio', () =>
         axios.get('api/portfolio')
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
@@ -31,9 +31,9 @@ const Portfolio = () => {
 
 
             </div >
-            <Footer />
+            {/*<Footer />*/}
         </BannerLayout >
-    );*/}
+    );
 };
 
 export default Portfolio;
