@@ -14,7 +14,7 @@ const portfolio = [
     {
         id: 0,
         projectName: "Elixir: A Personalized Color Palette Analyzer using Image Processing",
-        url: "https://absco.sa/",
+        url: "https://github.com/ShahaniV/HUI-Elixir/tree/main",
         image: "projects/elixir.png",
         projectDetail: "Elixir is a personalized color palette analyzer that uses advanced image processing, including the Viola-Jones algorithm for face detection and the Face Parsing Network for facial segmentation, to match users' skin tones with Seasonal Color Tones. Designed to provide tailored style recommendations for makeup, clothing, and hair, Elixir offers a user-friendly and accurate tool for fashion enthusiasts seeking a cohesive, personalized look.",
         technologiesUsed: [
